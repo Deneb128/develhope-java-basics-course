@@ -3,7 +3,7 @@ public class Main {
     {
         int[] myArr = {0,0,0,0,0,0,0,0,0,0};
         int sum = 0;
-        for(int i = 1; i <= 10; ++i)
+        for(int i = 1; i <= myArr.length; ++i)
         {
             sum =+ i;
             myArr[i-1] = i;
