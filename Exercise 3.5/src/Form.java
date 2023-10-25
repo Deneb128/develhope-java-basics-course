@@ -1,0 +1,3 @@
+interface Form {
+    double calculateArea();
+}
