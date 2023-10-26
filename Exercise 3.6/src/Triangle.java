@@ -13,6 +13,7 @@ public class Triangle extends Form {
         //calculateArea();
     }
 
+    @Override
     public void calculateArea()
     {
         this.area = (double)this.base * (double)this.height / 2.0;
