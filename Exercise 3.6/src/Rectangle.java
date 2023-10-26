@@ -9,11 +9,13 @@ public class Rectangle extends Form {
     {
         this.sideA = _sideA;
         this.sideB = _sideB;
+        //calculateArea();
     }
 
-    public void calculateAre()
+    public void calculateArea()
     {
         this.area = this.sideA * this.sideB;
+        System.out.println("Area of Rectangle is: " + this.area); //for the exercise asking to print it with calculateArea
     }
 
     public void printForm()

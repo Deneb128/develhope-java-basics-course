@@ -10,11 +10,13 @@ public class Triangle extends Form {
     {
         this.base = _base;
         this.height = _height;
+        //calculateArea();
     }
 
-    public void calculateAre()
+    public void calculateArea()
     {
         this.area = (double)this.base * (double)this.height / 2.0;
+        System.out.println("Area of Rectangle is: " + this.area); //for the exercise asking to print it with calculateArea
     }
 
 

@@ -17,4 +17,5 @@ class Form
                 return "SIMPLE FORM";
         }
     }
+    public void calculateArea(){};
 }
