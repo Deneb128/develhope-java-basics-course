@@ -1,6 +1,10 @@
 public class Main {
     public static void main(String[] args)
     {
+        createAndPrintArray();
+    }
+
+    public static void createAndPrintArray() { //let's be real, main was already the "method"..
         int[] myArr = {0,0,0,0,0,0,0,0,0,0};
         int sum = 0;
         for(int i = 1; i <= myArr.length; ++i)
@@ -13,6 +17,5 @@ public class Main {
             System.out.println(value);
         }
         System.out.println("Sum of array: " + sum);
-
     }
 }
