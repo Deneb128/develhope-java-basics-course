@@ -3,6 +3,10 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args)
     {
+        createAndPrintasFound();
+    }
+
+    public static void createAndPrintasFound() {
         char[] myArr = {' ',' ',' ',' ',' ',' ',' ',' ',' ',' '};
         Random r = new Random();
         
@@ -21,6 +25,5 @@ public class Main {
         if(!found){
             System.out.println("No 'a' found");
         }
-
     }
 }
